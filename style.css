@@ -49,3 +49,13 @@ input[type="checkbox"]:focus {
   font-size: 20px;
   font-weight: 400;
 }
+
+.botao-padrao{
+  background-color: var(--marrom-claro);
+  color: black;
+}
+
+.botao-padrao:hover, .botao-padrao::selection{
+  background-color: var(--marrom-escuro);
+}
+
